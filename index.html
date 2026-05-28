@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coni ✨</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="card" id="card">
+      <div class="sky">
+        <div class="sparkle s1"></div>
+        <div class="sparkle s2"></div>
+        <div class="sparkle s3"></div>
+        <div class="sparkle s4"></div>
+      </div>
+
+      <h1 id="title">Coni…</h1>
+      <p id="subtitle">
+        Tengo una pregunta importante 👉👈
+      </p>
+
+      <div class="monitos" aria-label="dos monitos">
+        <div class="monito" id="m1">
+          <div class="emoji">🧑‍🦱</div>
+          <div class="bubble">¿Pre‑pololeo? 🙈</div>
+        </div>
+
+        <div class="monito" id="m2">
+          <div class="emoji">👩‍🦰</div>
+          <div class="bubble">¿Y si digo que sí? 😳</div>
+        </div>
+      </div>
+
+      <div class="question" id="question">
+        <p class="q">
+          <strong>¿Coni, quieres tener pre‑pololeo conmigo?</strong>
+        </p>
+
+        <div class="buttons" id="buttons">
+          <button class="btn yes" id="yesBtn">Sí 💖</button>
+          <button class="btn no" id="noBtn">No 🙃</button>
+        </div>
+
+        <p class="hint" id="hint">Tip: si aprietas “No”… puede que se ponga tímido.</p>
+      </div>
+
+      <div class="result hidden" id="result">
+        <p class="big" id="answerLine"></p>
+        <p class="small" id="proofLine"></p>
+
+        <div class="buttons">
+          <button class="btn ghost" id="downloadBtn">Descargar “pantallazo”</button>
+          <button class="btn ghost" id="againBtn">Volver a jugar</button>
+        </div>
+
+        <p class="tiny">
+          Si no quieres descargar: también puedes hacer captura de pantalla normal.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      Hecho con cariño ✨
+    </footer>
+  </main>
+
+  <!-- Librería para "pantallazo" (convierte el card en imagen) -->
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
